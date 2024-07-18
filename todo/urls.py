@@ -1,5 +1,6 @@
 from django.urls import path
+from .views import todo_index
 
-urlpatterns = [
-    
-]
+urlpatterns = [ 
+    path('', todo_index) 
+]     
