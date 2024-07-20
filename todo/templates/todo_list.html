@@ -14,7 +14,9 @@
     </form>
     <ul>
         {% for item in data%}
-        <li>{{item.title}}</li>
+        <li>{{item.title}}<a href = "{% url 'delete_task' item.id %}">[DELETE]</a>
+            <a href = "{% url 'edit_task' item.id %}" >[EDIT]</a>
+        </li>
         {% endfor %}
     </ul>
 </body>
