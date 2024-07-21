@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+}
+
+.completed{
+    color: green;
+}
+
+.inprogress{
+    color: red;
+}
